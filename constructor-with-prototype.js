@@ -5,7 +5,7 @@ function Car (model) {
     this.year = 2012;
 }
 
-// add a getInfo method to the prototype method
+// Add the 'getInfo' method to the prototype object
 Car.prototype.getInfo = function () {
     return this.model + ' ' + this.year;
 }

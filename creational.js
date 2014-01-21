@@ -1,7 +1,8 @@
 var newObject = {};
 
+// ES5 compatible approach that gives more control on the property's behavior
 Object.defineProperty(newObject, "someKey", {
-    value: "val from defineProperty; ES5 compatible approach that gives more control on the property's behavior",
+    value: "val from defineProperty",
     writable: true,
     enumerable: true,
     configurable: true
